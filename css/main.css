@@ -1370,7 +1370,14 @@ main {
   max-width: 984px;
   width: 100%;
 }
+.hero__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
 .hero .slider__wrapper {
+  width: 312px;
   margin: 0 auto;
   display: flex;
   align-items: center;
